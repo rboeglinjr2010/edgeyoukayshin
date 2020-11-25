@@ -1,1 +1,39 @@
-*{border:1px solid rgb(40, 15, 180);}
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+* {
+  border: 1px solid rgb(40, 15, 180);
+  font-family: "Goldman", cursive;
+}
+h1 {
+  font-size: 10vw;
+  color: rgb(179, 189, 138);
+  text-shadow: 2px 2px whitesmoke;
+  background-image: url("./images/coffee.jpg");
+}
+.topbar {
+  background-color: teal;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5%;
+
+  color: black;
+  border-radius: 50px;
+}
+.barbutton:hover {
+  background-color: white;
+  color: blue;
+  font-size: 150%;
+}
+.barbutton {
+  text-decoration: none;
+  margin: 10px;
+}
+.thisIsCamelCase {
+  background-color: red;
+}
+#ThisIsPascalCase {
+  background-color: seagreen;
+}
+.h2 {
+  margin-left: auto;
+}
